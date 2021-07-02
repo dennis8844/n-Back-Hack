@@ -1,8 +1,8 @@
 # n-Back Hack
 
-Looking for a way to excel at the n-Back test? Know a little about programming? No need to be a crazy engineer, just the basic intro level stuff arrays/dict. This algo will help you envision what to do in your head (especially processing as a dict).
+Looking for a way to excel at the n-Back test? Know a little about programming? No need to be a crazy engineer, just the basic intro-level material such as proccessing arrays/dict. This algo will help you envision what to do in your head (especially processing as a dict).
 
-I did some n-Back testing while being a guinea pig for a study. They were super hard, andhurt my brain. At the same time I was learning programming and I ran through a thought experiment on how a mind-algo that can provide results. So I am not translating that to a real algo as follows.
+I did some n-Back testing while being a guinea pig for a study. At first they practically hurt my brain. Luckily, this was the same time I was learning to program and I ran through a thought experiment on how a mind-algo that could provide results. And it did extremely well. So I decided to stub out what I've done in code, so a quasi-algo comes to mind and if you can understand it, you can hack the n-Back0.
 
 # What is a n-Back test?
 
@@ -19,9 +19,9 @@ The n-back task is a continuous performance task that is commonly used as an ass
     - In the computer algo, a simple hash of a file will more than suffice
 1. A queue would work best for the store of n-Back data as progressed through the input array. However a LIFO change at every new item and remembering the order is more taxing on the mind, so a simple dict-like approach and a to_check index works much better in my opinion, you'll see that in the code.
 
-## Mental Obscure Image Naming
+## Obscure Image Naming
 
-Obscure images are images that cannot be easily and uniquely defined by what's in them. It takes a little mnemonic connections to name the image. Bacically, come up with the first word or combination of words that come to mind, that's it. An example would be "sinking sun", "wandering coast", "marble gallery", etc. There is no right or wrong, don't think at all, blurt it our. The more you think the more likely you won't think the same the next time you see the image. You can rename the next time you see it if you wish.
+Obscure images are images that cannot be easily and uniquely defined by what's in them. It takes a little mnemonic connections to name the image. Bacically, come up with the first word or combination of words that come to mind, that's it. An example would be "sinking sun", "wandering coast", "marble gallery", etc. There is no right or wrong, don't think at all, blurt it out and stay consistent. The more you think the more likely you won't think the same the next time you see the image. You can rename the next time you see it if you wish.
 
 ## Final thoughts
 
